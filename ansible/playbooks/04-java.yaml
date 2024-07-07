@@ -1,5 +1,5 @@
 - name: install java
-  hosts: all
+  hosts: prod
   become: yes
   tasks:
     - name: run apt-get update
