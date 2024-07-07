@@ -1,3 +1,4 @@
 tomcat_version: 8.5.53
+action: install
 dbhost: mydb
 dbport: 1521
