@@ -61,7 +61,7 @@
 
 - name: deploy app
   copy:
-   src: sampleapp.war
+   src: /var/lib/jenkins/workspace/package/target/sampleapp.war
    dest: /opt/tomcat/webapps/
 
 - name: configure app props 
